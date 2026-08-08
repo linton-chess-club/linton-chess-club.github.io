@@ -59,10 +59,19 @@
     font-weight: 700;
 }
 
-.fa-caret-down {
+.dropdown-caret {
     float: right;
-    padding: 3px 7px 0 0;
-    font-size: 12px;
+    width: 0;
+    height: 0;
+    margin: 5px 7px 0 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid currentColor;
+    transform: rotate(90deg);
+}
+
+.dropdown-btn.active .dropdown-caret {
+    transform: rotate(0deg);
 }
 
 .dropdown-container {

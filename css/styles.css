@@ -88,6 +88,15 @@ p {
 .main p,
 .main li {
     font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #222222;
+    line-height: 1.4;
+}
+
+.main ul, 
+.main ol {
+    padding-left: 0;
 }
 
 .img-wrapper {
